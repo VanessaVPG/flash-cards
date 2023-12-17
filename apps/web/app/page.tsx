@@ -1,7 +1,7 @@
 import { MoveRight } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 import { ProgressCircle } from "./components/progress-circle";
+import { Button, ButtonIcon, ButtonText } from "@repo/ui/button";
 
 export default function Home() {
   return (
@@ -25,14 +25,14 @@ export default function Home() {
                 <h3 className="text-rust-950 font-bold text-sm leading-heading">Fundamentos do Javascript</h3>
                 <p className="text-sm text-rust-800 font-normal leading-base">Treine seus fundamentos de JavaScript como: variáveis, testes, Arrays, condicionais loops  estruturas de dados </p>
                 <div className="flex items-center justify-between">
-                  <Link href={'/colecao'} className="bg-rust-700 rounded-lg text-rust-50 font-bold p-3 transition-all hover:bg-rust-900">
+                  <Button href="/flash" >
                     <div className="flex gap-3 items-center">
-                      <span className="leading-base">
+                      <ButtonText>
                         Acessar coleção
-                      </span>
-                      <MoveRight size={20} />
+                      </ButtonText>
+                      <ButtonIcon icon={MoveRight} />
                     </div>
-                  </Link>
+                  </Button>
                   <div className="flex items-center gap-1 text-sm font-normal text-rust-700">
                     <ProgressCircle progress={40} />
                     <span>
