@@ -45,7 +45,7 @@ export default function Flash() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, rotateY: -180 }}
                     transition={{ duration: 1, delay: 0.8 }}
-                    className="text-3xl font-bold px-4 z-50">Qual a música da Katy Perry?</motion.p>
+                    className="text-3xl font-bold px-4 z-50">.map</motion.p>
                 )
                   :
                   (
