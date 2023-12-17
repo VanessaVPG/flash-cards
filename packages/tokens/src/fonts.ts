@@ -12,6 +12,7 @@ export const fonts = {
   },
   fontFamily: {
     default: "Inter",
+    mono: "Roboto Mono",
   },
   lineHeights: {
     heading: "1.6",
